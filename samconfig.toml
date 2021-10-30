@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "findcrypto-api"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-ntl3jxqee484"
+s3_prefix = "findcrypto-api"
+region = "ap-northeast-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
